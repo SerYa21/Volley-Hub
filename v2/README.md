@@ -12,7 +12,7 @@ Une application web installable pour saisir la séance pendant qu'elle se dérou
 
 ## Essayer l'application
 
-Publier **le contenu de ce dossier** sur un hébergement HTTPS, par exemple le GitHub Pages déjà utilisé par la V1. Ouvrir ensuite l'URL sur l'iPhone, puis utiliser « Ajouter à l'écran d'accueil » si souhaité. L'application n'exige pas de compte, de plugin ChatGPT, de serveur ou de dépendance JavaScript à installer pour ces fonctions locales.
+La V2 est publiée sur **https://serya21.github.io/Volley-Hub/v2/**, à côté de la V1 conservée à la racine. Ouvrir cette adresse dans Safari sur l'iPhone, puis utiliser « Ajouter à l'écran d'accueil » si souhaité. L'icône porte « Volley Hub V2 » pour la distinguer de la V1. L'application n'exige pas de compte, de plugin ChatGPT, de serveur ou de dépendance JavaScript à installer pour ses fonctions locales.
 
 Pour une prévisualisation sur ordinateur, depuis ce dossier :
 

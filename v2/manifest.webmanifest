@@ -1,6 +1,6 @@
 {
-  "name": "Volley Hub",
-  "short_name": "Volley Hub",
+  "name": "Volley Hub V2",
+  "short_name": "Volley Hub V2",
   "description": "Entraînement, volley et journal personnel",
   "start_url": "./",
   "scope": "./",
