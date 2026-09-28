@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#102f2c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Volley Hub">
+  <meta name="description" content="Journal d'entraînement personnel pour le volley et la musculation.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Volley Hub</title>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">V</span><span>Volley Hub <small>v2</small></span></div>
+      <span id="save-status" class="save-status" role="status" aria-live="polite">Prêt</span>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <nav class="bottom-nav" aria-label="Navigation principale">
+      <button type="button" data-nav="today"><span class="nav-icon" aria-hidden="true">⌂</span>Aujourd'hui</button>
+      <button type="button" data-nav="calendar"><span class="nav-icon" aria-hidden="true">▦</span>Agenda</button>
+      <button type="button" data-nav="journal"><span class="nav-icon" aria-hidden="true">≡</span>Journal</button>
+      <button type="button" data-nav="settings"><span class="nav-icon" aria-hidden="true">⚙</span>Réglages</button>
+    </nav>
+  </div>
+  <div id="sheet-root"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <input id="import-file" type="file" accept="application/json,.json" hidden>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
